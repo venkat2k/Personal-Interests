@@ -1,0 +1,45 @@
+.item, .acimage {
+  padding: 20px;
+}
+table, td, th {
+  border: solid black;
+  padding: 3px;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+@media (max-width: 500px) {
+  table, td, th {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+}
+.item {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+.acimage {
+  height: 300px;
+  width: 500px;
+}
+#links {
+  margin: 0px auto;
+  text-align: center;
+}
+.item > h3 {
+  text-align: left;
+}
+.heading .normal {
+  display: inline;
+}
+.heading a {
+  display: none;
+}
+.heading:hover .normal {
+  display: none;
+}
+.heading:hover a {
+  display: inline;
+}
